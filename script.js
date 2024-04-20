@@ -9,7 +9,7 @@ function checkPassword() {
     passwordForm.style.display = 'none'; // 隱藏密碼輸入區域
     videoContainer.style.display = 'block'; // 顯示影片區域
   } else {
-    alert('Incorrect password. Please try again.');
+    alert('太不小心啦，小粗心鬼💀💀💀');
     passwordInput.value = ''; // 清空輸入欄
   }
 }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Protected Video</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .password-form {
+      margin-top: 100px;
+    }
+    #video-container {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="password-form">
+    <label for="password">Enter Password:</label>
+    <input type="password" id="password" name="password">
+    <button onclick="checkPassword()">Submit</button>
+  </div>
+
+  <div id="video-container">
+    <!-- YouTube 嵌入式播放器 -->
+    <iframe id="player" width="640" height="360" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

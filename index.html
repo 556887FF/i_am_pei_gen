@@ -3,30 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Password Protected Video</title>
+  <title>Password Redirect</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-    }
-    .password-form {
       margin-top: 100px;
-    }
-    #video-container {
-      display: none;
     }
   </style>
 </head>
 <body>
   <div class="password-form">
-    <label for="password">來吧，兄弟:</label>
+    <label for="password">Enter Password:</label>
     <input type="password" id="password" name="password">
-    <button onclick="checkPassword()">確定</button>
-  </div>
-
-  <div id="video-container">
-    <!-- YouTube 嵌入式播放器 -->
-    <iframe id="player" width="640" height="360" src="https://www.youtube.com/watch?v=nAe3vKDrLkk" frameborder="0" allowfullscreen></iframe>
+    <button onclick="checkPassword()">Submit</button>
   </div>
 
   <script src="script.js"></script>

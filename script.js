@@ -6,7 +6,7 @@ function checkPassword() {
     // 正確密碼，導向到指定的 YouTube 影片
     window.location.href = 'https://youtu.be/A-1Z5yNECT0';
   } else {
-    alert('我可能會覺得:以台灣媒體的素質，影該不會上新聞');
+    alert('我可能會覺得:以台灣媒體的素質，應該不會上新聞');
     passwordInput.value = ''; // 清空輸入欄
   }
 }
